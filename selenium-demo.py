@@ -21,7 +21,7 @@ search_box = driver.find_element("name", "q")
 search_box.send_keys("Selenium on AWS EC2")
 
 # Press Enter
-search_box.send_keys(Keys.RETURN)
+#search_box.send_keys(Keys.RETURN)
 
 # Wait for a few seconds to ensure the results are loaded
 time.sleep(5)
